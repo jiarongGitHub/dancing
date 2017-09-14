@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#wrap{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 91.2px;
+				height: 140px;
+				background: url(img/舞者.png);
+				animation: move 2s infinite steps(5,start);
+			}
+			@keyframes move{
+				from{
+					background-position:0,0;
+				}
+				to{
+					background-position: -456px 0;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			
+		</div>
+	</body>
+</html>
